@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogador Ideal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Descubra qual jogador combina com você</h1>
+
+    <form id="player-form">
+
+        <label>Seu nome:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+        <label>Time favorito:</label>
+        <select id="time">
+            <option value="Flamengo">Flamengo</option>
+            <option value="Palmeiras">Palmeiras</option>
+            <option value="Corinthians">Corinthians</option>
+            <option value="São Paulo">São Paulo</option>
+            <option value="Santos">Santos</option>
+            <option value="Grêmio">Grêmio</option>
+            <option value="Internacional">Internacional</option>
+            <option value="Cruzeiro">Cruzeiro</option>
+            <option value="Atlético-MG">Atlético-MG</option>
+            <option value="Fluminense">Fluminense</option>
+        </select>
+
+        <label>Posição favorita:</label>
+        <select id="posicao">
+            <option value="goleiro">Goleiro</option>
+            <option value="zagueiro">Zagueiro</option>
+            <option value="lateral">Lateral</option>
+            <option value="volante">Volante</option>
+            <option value="meia">Meia</option>
+            <option value="ponta">Ponta</option>
+            <option value="centroavante">Centroavante</option>
+        </select>
+
+        <label>Perna dominante:</label>
+        <select id="perna">
+            <option value="direita">Direita</option>
+            <option value="esquerda">Esquerda</option>
+            <option value="ambas">Ambas</option>
+        </select>
+
+        <label>Característica favorita:</label>
+        <select id="caracteristica">
+            <option value="velocidade">Velocidade</option>
+            <option value="drible">Drible</option>
+            <option value="finalizacao">Finalização</option>
+            <option value="forca">Força física</option>
+            <option value="passe">Passe</option>
+            <option value="visao">Visão de jogo</option>
+            <option value="defesa">Defesa</option>
+            <option value="tecnica">Técnica / Habilidade</option>
+        </select>
+
+        <button type="submit" class="btn">Descobrir Jogador</button>
+
+    </form>
+
+    <div id="resultado" class="hide">
+        <h2 id="mensagem"></h2>
+        <div class="jogadores">
+            <div class="jogador">
+                <h3 id="jogador1-nome"></h3>
+                <img id="jogador1-foto" src="" alt="Jogador 1">
+                <a id="jogador1-video" class="btn" target="_blank">Ver vídeo</a>
+            </div>
+            <div class="jogador">
+                <h3 id="jogador2-nome"></h3>
+                <img id="jogador2-foto" src="" alt="Jogador 2">
+                <a id="jogador2-video" class="btn" target="_blank">Ver vídeo</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>

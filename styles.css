@@ -1,0 +1,97 @@
+/* Fundo principal e fonte */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0B3D2E; /* verde escuro */
+    color: #fff; /* letras brancas */
+}
+
+/* Container central */
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Labels e inputs */
+form label {
+    margin-top: 15px;
+    display: block;
+    font-size: 18px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+/* Botão principal */
+.btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    background: #FFD700; /* dourado */
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ffe760;
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Jogadores */
+.jogadores {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.jogador {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 45%;
+}
+
+.jogador img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Esconder resultado inicialmente */
+.hide {
+    display: none;
+}
