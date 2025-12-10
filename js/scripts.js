@@ -7,36 +7,36 @@ document.getElementById("player-form").addEventListener("submit", function(e) {
 
     let jogadores = {
         velocidade: [
-            {nome: "Vinícius Jr", foto: "img/Vini.jpeg", video: "https://www.youtube.com/watch?v=bvZcFqZq8vs"},
-            {nome: "Kylian Mbappé", foto: "img/Mbappe.jpeg", video: "https://www.youtube.com/watch?v=bvZcFqZq8vs"}
+            {nome: "Vinícius Jr", foto: "img/Vini.jpeg", video: "https://www.youtube.com/watch?v=Mc6ciZ6z6Nw"},
+            {nome: "Kylian Mbappé", foto: "img/Mbappe.jpeg", video: "https://www.youtube.com/watch?v=PpEOTCXRey8"}
         ],
         drible: [
-            {nome: "Neymar Jr", foto: "img/Neymar.jpeg", video: "https://www.youtube.com/watch?v=Jz5lHppZAr0"},
-            {nome: "Ronaldinho", foto: "img/Ronaldinho.jpeg", video: "https://www.youtube.com/watch?v=Jz5lHppZAr0"}
+            {nome: "Neymar Jr", foto: "img/Neymar.jpeg", video: "https://www.youtube.com/watch?v=K2csY1cMpfA&t=468s"},
+            {nome: "Ronaldinho", foto: "img/Ronaldinho.jpeg", video: "https://www.youtube.com/watch?v=P5JfPqtD45Q"}
         ],
         finalizacao: [
-            {nome: "Cristiano Ronaldo", foto: "img/Ronaldo.jpeg", video: "https://www.youtube.com/watch?v=mmeLCAP74KA"},
-            {nome: "Erling Haaland", foto: "img/Haaland.jpeg", video: "https://www.youtube.com/watch?v=4ZRWqj0IcdE"}
+            {nome: "Cristiano Ronaldo", foto: "img/Ronaldo.jpeg", video: "https://www.youtube.com/watch?v=hm45fKy8srI"},
+            {nome: "Erling Haaland", foto: "img/Haaland.jpeg", video: "https://www.youtube.com/watch?v=EppU7FwAyEc"}
         ],
         forca: [
-            {nome: "Van Dijk", foto: "img/VanDijk.jpeg", video: "https://www.youtube.com/watch?v=lYQLOjFIc9E"},
-            {nome: "Zlatan Ibrahimovic", foto: "img/Zlatan.jpeg", video: "https://www.youtube.com/watch?v=lYQLOjFIc9E"}
+            {nome: "Van Dijk", foto: "img/VanDijk.jpeg", video: "https://www.youtube.com/watch?v=BLuUYzETmWM"},
+            {nome: "Zlatan Ibrahimovic", foto: "img/Zlatan.jpeg", video: "https://www.youtube.com/watch?v=RDsxKXa0PbA"}
         ],
         passe: [
-            {nome: "Kevin De Bruyne", foto: "img/DeBruyne.jpeg", video: "https://www.youtube.com/watch?v=oa5gYv7FpC0"},
-            {nome: "Toni Kroos", foto: "img/Kroos.jpeg", video: "https://www.youtube.com/watch?v=oa5gYv7FpC0"}
+            {nome: "Kevin De Bruyne", foto: "img/DeBruyne.jpeg", video: "https://www.youtube.com/watch?v=cyA-uY6sDow"},
+            {nome: "Toni Kroos", foto: "img/Kroos.jpeg", video: "https://www.youtube.com/watch?v=Fr-PZ1utSBY"}
         ],
         visao: [
-            {nome: "Messi", foto: "img/Messi.jpeg", video: "https://www.youtube.com/watch?v=pkBGQW43ZlE"},
-            {nome: "Modrić", foto: "img/Modric.jpeg", video: "https://www.youtube.com/watch?v=pkBGQW43ZlE"}
+            {nome: "Messi", foto: "img/Messi.jpeg", video: "https://www.youtube.com/watch?v=b4_PA7GsLwA"},
+            {nome: "Modrić", foto: "img/Modric.jpeg", video: "https://www.youtube.com/watch?v=atReonbrBbk"}
         ],
         defesa: [
-            {nome: "Sergio Ramos", foto: "img/SergioRamos.jpeg", video: "https://www.youtube.com/watch?v=lYQLOjFIc9E"},
-            {nome: "Rúben Dias", foto: "RubenDias.jpeg", video: "https://www.youtube.com/watch?v=lYQLOjFIc9E"}
+            {nome: "Sergio Ramos", foto: "img/SergioRamos.jpeg", video: "https://www.youtube.com/watch?v=04Q6ybR1bLc"},
+            {nome: "Rúben Dias", foto: "RubenDias.jpeg", video: "https://www.youtube.com/watch?v=XcRpE5fatq4"}
         ],
         tecnica: [
-            {nome: "Messi", foto: "img/Messi.jpeg", video: "https://www.youtube.com/watch?v=pkBGQW43ZlE"},
-            {nome: "Neymar", foto: "img/Neymar.jpeg", video: "https://www.youtube.com/watch?v=Jz5lHppZAr0"}
+            {nome: "Messi", foto: "img/Messi.jpeg", video: "https://www.youtube.com/watch?v=b4_PA7GsLwA"},
+            {nome: "Neymar", foto: "img/Neymar.jpeg", video: "https://www.youtube.com/watch?v=K2csY1cMpfA&t=468s"}
         ]
     };
 
@@ -54,4 +54,5 @@ document.getElementById("player-form").addEventListener("submit", function(e) {
 
     document.getElementById("resultado").classList.remove("hide");
 });
+
 
