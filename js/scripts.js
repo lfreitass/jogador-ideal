@@ -15,7 +15,7 @@ document.getElementById("player-form").addEventListener("submit", function(e) {
             {nome: "Ronaldinho", foto: "img/Ronaldinho.jpeg", video: "https://www.youtube.com/watch?v=Jz5lHppZAr0"}
         ],
         finalizacao: [
-            {nome: "Cristiano Ronaldo", foto: "img/Ronaldo.jpeg", video: "https://www.youtube.com/watch?v=pa1jPT3YPpY"},
+            {nome: "Cristiano Ronaldo", foto: "img/Ronaldo.jpeg", video: "https://www.youtube.com/watch?v=mmeLCAP74KA"},
             {nome: "Erling Haaland", foto: "img/Haaland.jpeg", video: "https://www.youtube.com/watch?v=4ZRWqj0IcdE"}
         ],
         forca: [
@@ -54,3 +54,4 @@ document.getElementById("player-form").addEventListener("submit", function(e) {
 
     document.getElementById("resultado").classList.remove("hide");
 });
+
