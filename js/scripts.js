@@ -32,7 +32,7 @@ document.getElementById("player-form").addEventListener("submit", function(e) {
         ],
         defesa: [
             {nome: "Sergio Ramos", foto: "img/SergioRamos.jpeg", video: "https://www.youtube.com/watch?v=04Q6ybR1bLc"},
-            {nome: "Rúben Dias", foto: "RubenDias.jpeg", video: "https://www.youtube.com/watch?v=XcRpE5fatq4"}
+            {nome: "Rúben Dias", foto: "img/RubenDias.jpeg", video: "https://www.youtube.com/watch?v=XcRpE5fatq4"}
         ],
         tecnica: [
             {nome: "Messi", foto: "img/Messi.jpeg", video: "https://www.youtube.com/watch?v=b4_PA7GsLwA"},
@@ -54,5 +54,6 @@ document.getElementById("player-form").addEventListener("submit", function(e) {
 
     document.getElementById("resultado").classList.remove("hide");
 });
+
 
 
